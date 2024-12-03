@@ -4,8 +4,9 @@ import java.util.*;
 public class Variable_and_data_types {
 
     public static void main(String[] args){
+
+        //Primitive Data Types
         int age =29;
-        String name = "nikhil";
         float weight = 65.5f;
         boolean isValid = true;
         byte marks = 90;
@@ -13,6 +14,9 @@ public class Variable_and_data_types {
         float div =15.0f/4.0f;
         long views = 1000000000000000000L;
         char gender ='N';
+
+        //Non-Primitive Data Type
+        String name = "nikhil";
 
         System.out.println(age);
         System.out.println(name);
